@@ -2,7 +2,6 @@ package com.dh.ClinicaDefinitivo.controller;
 import com.dh.ClinicaDefinitivo.entity.dto.PacienteDTO;
 import com.dh.ClinicaDefinitivo.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +13,7 @@ public class PacienteController {
     @Autowired
     private IPacienteService pacienteService;
 
-    @PostMapping()
+    @PostMapping
     public ResponseEntity<?> crearPaciente(@RequestBody PacienteDTO pacienteDTO) {
         pacienteService.crearPaciente(pacienteDTO);
         return ResponseEntity.ok("Paciente creado exitosamente.");

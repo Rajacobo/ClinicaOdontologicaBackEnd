@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
 
-    const formulario = document.querySelector('#nuevo_odontologo');
+    const formulario = document.querySelector('#add_new_odontologo');
 
     formulario.addEventListener('submit', function (event) {
 
@@ -59,7 +59,7 @@ window.addEventListener('load', function () {
         let pathname = window.location.pathname;
        if (pathname === "/") {
             document.querySelector(".nav .nav-item a:first").addClass("active");
-       } else if (pathname == "/listaOdontologo.html") {
+       } else if (pathname == "/OdontologoList.html") {
          document.querySelector(".nav .nav-item a:last").addClass("active");
        }
     })();

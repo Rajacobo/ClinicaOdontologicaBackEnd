@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
 
-    const formulario = document.querySelector('#form_odontologo');
+    const formulario = document.querySelector('#update_odontologo_form');
     formulario.addEventListener('submit', function (event) {
         
         let odontologo_id = document.querySelector('#odontologo_id').value;
@@ -12,7 +12,7 @@ window.addEventListener('load', function () {
             matricula: document.querySelector('#matricula').value,
         };
 
-        const url = '/odontologo/update';
+        const url = '/odontologo';
         const settings = {
             method: 'PUT',
             headers: {
@@ -41,7 +41,7 @@ function findBy(id) {
             document.querySelector('#nombre').value = odontologo.nombre;
             document.querySelector('#apellido').value = odontologo.apellido;
             document.querySelector('#matricula').value = odontologo.matricula;
-            document.querySelector('#div_odontologo_put').style.display = "block";
+            document.querySelector('#div_odontologo_updating').style.display = "block";
         })
         
         .catch(error => {

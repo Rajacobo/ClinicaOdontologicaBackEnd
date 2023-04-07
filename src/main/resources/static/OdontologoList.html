@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Estudiantes</title>
+    <title>Odontologos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/get_student.js"></script>
-    <script type="text/javascript" src="/js/put_student.js"></script>
-    <script type="text/javascript" src="/js/delete_student.js"></script>
+    <script type="text/javascript" src="/js/get_odontologo.js"></script>
+    <script type="text/javascript" src="/js/put_odontologo.js"></script>
+    <script type="text/javascript" src="/js/delete_odontologo.js"></script>
 </head>
 <body>
 <div class="container">
@@ -23,16 +23,16 @@
         </li>
     </ul>
 
-    <div id="div_student_table">
-        <h1>Estudiantes</h1>
+    <div id="div_odontologo_table">
+        <h1>Odontologos</h1>
         <div class="row col-md-6 table-responsive">
-            <table id="studentTable" class="table table-striped">
+            <table id="odontologoTable" class="table table-striped">
                 <thead>
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
-                    <th></th>
+                    <th>Matricula</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -43,11 +43,11 @@
     <div class="row">
         <div class="col-sm-6" style="display: none;
 											background-color:#e6fffa; padding:10px; border-radius:3px"
-             id="div_student_updating">
-            <form id="update_student_form">
+             id="div_odontologo_updating">
+            <form id="update_odontologo_form">
                 <div class="form-group">
                     <label >Id:</label>
-                    <input type="text" class="form-control" id="student_id" readonly>
+                    <input type="number" class="form-control" id="odontologo_id" readonly>
                 </div>
                 <div class="form-group">
                     <label >Nombre:</label>
@@ -57,7 +57,10 @@
                     <label >Apellido:</label>
                     <input type="text" class="form-control" placeholder="Apellido" id="apellido">
                 </div>
-
+                <div class="form-group">
+                    <label >Matricula:</label>
+                    <input type="number" class="form-control" placeholder="Matricula" id="matricula">
+                </div>
 
                 <button type="submit" class="btn btn-primary">Modificar</button>
             </form>

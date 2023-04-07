@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
 
   (function () {
-    const url = '/odontologo/all';
+    const url = '/odontologo';
     const settings = {
       method: 'GET'
     }
@@ -15,7 +15,6 @@ window.addEventListener('load', function () {
 
         for (odontologo of data) {
 
-          //Mostrando los datos por consola
           console.log("nombre:" + odontologo.nombre);
 
           var table = document.querySelector("#odontologoTable");

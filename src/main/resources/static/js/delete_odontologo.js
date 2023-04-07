@@ -1,5 +1,5 @@
 function deleteBy(id) {
-    const url = '/odontologo/delete/' + id;
+    const url = '/odontologo/' + id;
     const settings = {
         method: 'DELETE'
     }

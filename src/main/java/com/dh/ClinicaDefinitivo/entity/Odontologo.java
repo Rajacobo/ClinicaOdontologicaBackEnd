@@ -2,12 +2,11 @@ package com.dh.ClinicaDefinitivo.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
-
 import java.util.HashSet;
 import java.util.Set;
 @Builder
 @Entity
-@Table(name = "Odontologos")
+@Table
 @Getter
 @Setter
 @AllArgsConstructor

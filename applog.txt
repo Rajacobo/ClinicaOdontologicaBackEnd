@@ -1,0 +1,14 @@
+INFO    2023-04-07 19:11:51,484 [http-nio-8081-exec-7] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - lista de odontologos.
+INFO    2023-04-07 19:11:53,195 [http-nio-8081-exec-8] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Buscando odontologo por ID...
+INFO    2023-04-07 19:11:53,201 [http-nio-8081-exec-8] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Odontologo encontrado con el ID: 2
+INFO    2023-04-07 19:12:01,729 [http-nio-8081-exec-9] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Actualizando Odontologo: com.dh.ClinicaDefinitivo.entity.dto.OdontologoDTO@16e44545
+INFO    2023-04-07 19:12:01,754 [http-nio-8081-exec-2] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - lista de odontologos.
+INFO    2023-04-07 19:12:36,285 [http-nio-8081-exec-4] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Buscando odontologo por ID...
+INFO    2023-04-07 19:12:36,286 [http-nio-8081-exec-4] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Odontologo encontrado con el ID: 1
+INFO    2023-04-07 19:12:42,545 [http-nio-8081-exec-5] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Actualizando Odontologo: com.dh.ClinicaDefinitivo.entity.dto.OdontologoDTO@18d63fde
+INFO    2023-04-07 19:12:42,579 [http-nio-8081-exec-7] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - lista de odontologos.
+INFO    2023-04-07 19:16:00,359 [http-nio-8081-exec-3] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Creando Odontologo...
+INFO    2023-04-07 19:16:02,831 [http-nio-8081-exec-9] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - lista de odontologos.
+INFO    2023-04-07 19:16:04,066 [http-nio-8081-exec-10] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Buscando odontologo por ID...
+INFO    2023-04-07 19:16:04,074 [http-nio-8081-exec-10] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Odontologo encontrado con el ID: 1
+INFO    2023-04-07 19:16:05,680 [http-nio-8081-exec-1] com.dh.ClinicaDefinitivo.service.impl.OdontologoService  - Odontologo con ID: 1 eliminando.

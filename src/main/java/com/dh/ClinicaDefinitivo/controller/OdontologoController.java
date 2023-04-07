@@ -1,4 +1,5 @@
 package com.dh.ClinicaDefinitivo.controller;
+import com.dh.ClinicaDefinitivo.badExceptions.BadRequestException;
 import com.dh.ClinicaDefinitivo.entity.dto.OdontologoDTO;
 import com.dh.ClinicaDefinitivo.service.IOdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +13,8 @@ public class OdontologoController {
     @Autowired
     private IOdontologoService odontologoService;
 
-    @PostMapping()
-    public ResponseEntity<?> crearOdontologo(@RequestBody OdontologoDTO odontologoDTO) {
+    @PostMapping
+    public ResponseEntity<?> crearOdontologo(@RequestBody OdontologoDTO odontologoDTO) throws BadRequestException {
         odontologoService.crearOdontologo(odontologoDTO);
         return ResponseEntity.ok("Odontologo creado exitosamente.");
     }
